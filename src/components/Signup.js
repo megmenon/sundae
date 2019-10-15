@@ -2,9 +2,8 @@ import React, {Component} from 'react';
 import { Container, ListContainer, List, ListNumber, SplitContainer, 
   Heading, DetailsContainer, Detail, Button, ButtonText, SundaeImage} from './styled-components/styled-components';
 
-class SignUp extends Component{
-  render(){
-    return(
+function SignUp() {
+  return(
     <React.Fragment>
       <SundaeImage />
       <SplitContainer>
@@ -47,13 +46,12 @@ class SignUp extends Component{
           </DetailsContainer>
         </ListContainer>
         </Container>
-        </SplitContainer>
+      </SplitContainer>
       <Button>
         <ButtonText>GET OFFER</ButtonText>
       </Button>
     </React.Fragment>
-    )
-  }
+  )
 }
 
 export default SignUp

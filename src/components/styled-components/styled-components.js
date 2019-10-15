@@ -98,4 +98,4 @@ export const SundaeImage = styled.div`
   left: 10%;
   height: 500px;
   width: 50%;
-`
+`;
